@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Misc
+.DS_Store
+knife.rb
+*.tar
+
+# Test binary, build with `go test -c`
+*.test
+
+# Binaries we generate
+/mose
+chef-linux
+puppet-linux
+
+# Application-generated folders
+payloads/
+keys/
+
+# Packr files and directories
+packrd/
+main-packr.go
+params.go
